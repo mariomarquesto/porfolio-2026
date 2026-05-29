@@ -8,7 +8,8 @@ Este repositorio contiene el código fuente de un portafolio personal 3D constru
 
 ## Captura de Pantalla
 
-![Vista del portafolio](Captura%20de%20pantalla%202026-05-28%20210115.png)
+![Vista del portafolio](<img width="1340" height="592" alt="Captura de pantalla 2026-05-28 210115" src="https://github.com/user-attachments/assets/88dc5cc6-30cc-4fb2-ace4-e70cb839d341" />
+)
 
 ## Tabla de Contenidos
 
