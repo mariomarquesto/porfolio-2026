@@ -1,10 +1,14 @@
 # Portafolio 3D - Mario Marquesto
 
+![Vista previa del portafolio](public/images/preview1.png)
+
 Este repositorio contiene el código fuente de un portafolio personal 3D construido con React, TypeScript, Three.js, React Three Fiber y GSAP. Incluye secciones animadas, una escena con personaje 3D, interacciones personalizadas del cursor y transiciones suaves diseñadas para una experiencia de portafolio moderna.
 
 **Sitio en vivo:** [https://porfolio-2026-theta.vercel.app](https://porfolio-2026-theta.vercel.app)
 
-![Vista previa del portafolio](public/images/preview1.png)
+## Captura de Pantalla
+
+![Vista del portafolio](Captura%20de%20pantalla%202026-05-28%20210115.png)
 
 ## Tabla de Contenidos
 
