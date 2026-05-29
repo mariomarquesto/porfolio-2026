@@ -1,6 +1,6 @@
 # Portafolio 3D - Mario Marquesto
 
-![Vista previa del portafolio](public/images/Captura de pantalla 2026-05-28 210115.png)
+![Vista previa del portafolio](public/images/Captura%20de%20pantalla%202026-05-28%20210115.png)
 
 Este repositorio contiene el código fuente de un portafolio personal 3D construido con React, TypeScript, Three.js, React Three Fiber y GSAP. Incluye secciones animadas, una escena con personaje 3D, interacciones personalizadas del cursor y transiciones suaves diseñadas para una experiencia de portafolio moderna.
 
@@ -8,7 +8,7 @@ Este repositorio contiene el código fuente de un portafolio personal 3D constru
 
 ## Captura de Pantalla
 
-
+![Vista del portafolio](public/images/Captura%20de%20pantalla%202026-05-28%20210115.png)
 
 ## Tabla de Contenidos
 
@@ -60,6 +60,8 @@ Este repositorio contiene el código fuente de un portafolio personal 3D constru
 ```text
 .
 ├── public/                    # Archivos estáticos
+│   └── images/                # Imágenes del proyecto
+│       └── Captura de pantalla 2026-05-28 210115.png
 ├── src/
 │   ├── assets/                # Recursos locales
 │   ├── components/
