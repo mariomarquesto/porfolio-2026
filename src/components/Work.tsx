@@ -8,30 +8,10 @@ const projects = [
     title: "E-commerce Platform",
     category: "Plataforma de Comercio Electrónico",
     tools: "React, Next.js, Node.js, MongoDB, Stripe, IA para recomendaciones",
-    image: "/images/callhq.png",
+    image: "/images/pinups.png",
     link: "https://github.com/mariomarquesto",
   },
-  {
-    title: "Dashboard IA / Analytics",
-    category: "Panel de Control con Inteligencia Artificial",
-    tools: "React, .NET Core, OpenAI API, LangChain, SQL Server",
-    image: "/images/whatsapp.png",
-    link: "https://github.com/mariomarquesto",
-  },
-  {
-    title: "Chatbot Inteligente",
-    category: "Asistente Virtual para Atención al Cliente",
-    tools: "Next.js, Node.js, OpenAI, LangChain, RAG, MongoDB",
-    image: "/images/broki.png",
-    link: "https://github.com/mariomarquesto",
-  },
-  {
-    title: "Sistema de Automatización",
-    category: "Automatización de Procesos con IA",
-    tools: ".NET Core, React, OpenAI API, PostgreSQL, Docker",
-    image: "/images/orrdr.png",
-    link: "https://github.com/mariomarquesto",
-  },
+  
 ];
 
 const Work = () => {
