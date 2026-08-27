@@ -5,13 +5,28 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    category: "Plataforma de Comercio Electrónico",
-    tools: "React, Next.js, Node.js, MongoDB, Stripe, IA para recomendaciones",
-    image: "/images/pinups.png",
-    link: "https://github.com/mariomarquesto",
+    title: "Expo E-commerce & Inventory Mobile App",
+    category: "Aplicación Móvil y Web Full Stack",
+    tools: "React Native, Expo, Node.js, Express, MSSQL / PostgreSQL, JWT",
+    image: "/images/ecommerce-mobile.png",
+    link: "https://github.com/mariomarquesto/expo-ecommerce2",
   },
-  
+  {
+    title: "AgTech Enterprise Core Data & Analytics",
+    category: "Sistema de Gestión y Monitoreo Agrícola",
+    tools: ".NET Core, C#, PostgreSQL, Azure DevOps, Power BI",
+    image: "/images/agtech.png",
+    link: "#",
+    note: "Código privado (NDA / Cliente corporativo)",
+  },
+  {
+    title: "n8n AI Workflow Automation Pipeline",
+    category: "Automatización Inteligente de Procesos y APIs",
+    tools: "n8n, OpenAI API, LangChain, Node.js, Webhooks, Google Sheets",
+    image: "/images/n8n-ai.png",
+    link: "#",
+    note: "Implementación corporativa confidencial",
+  },
 ];
 
 const Work = () => {
@@ -88,6 +103,11 @@ const Work = () => {
                           <span className="tools-label">Tecnologías</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.note && (
+                          <div className="carousel-note" style={{ marginTop: "8px", fontSize: "0.85rem", color: "#888", fontStyle: "italic" }}>
+                            <span>{project.note}</span>
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">
@@ -107,8 +127,9 @@ const Work = () => {
             {projects.map((_, index) => (
               <button
                 key={index}
-                className={`carousel-dot ${index === currentIndex ? "carousel-dot-active" : ""
-                  }`}
+                className={`carousel-dot ${
+                  index === currentIndex ? "carousel-dot-active" : ""
+                }`}
                 onClick={() => goToSlide(index)}
                 aria-label={`Ir al proyecto ${index + 1}`}
                 data-cursor="disable"
