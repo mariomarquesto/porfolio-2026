@@ -15,53 +15,37 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack + IA</h4>
-                <h5>Freelance / Consultoría</h5>
+                <h4>Full Stack + IA & Cloud</h4>
+                <h5>Freelance / Consultoría / Stefanini</h5>
               </div>
               <h3>ACTUAL</h3>
             </div>
             <p>
-              Desarrollo soluciones web full stack con integración de IA.
-              React, Next.js, .NET Core, Node.js, MongoDB, MySQL, OpenAI.
+              Desarrollo de software y despliegues productivos con .NET Core, C#, Node.js 24, React, Next.js, Vercel, Azure y flujos avanzados con Inteligencia Artificial y n8n.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Ejecutivo Ventas Consultivas</h4>
-                <h5>Sector Tecnológico</h5>
+                <h4>Desarrollador Full Stack & Software Engineer</h4>
+                <h5>Proyectos Web y Empresariales</h5>
               </div>
-              <h3>2020–24</h3>
+              <h3>2018–2025</h3>
             </div>
             <p>
-              Experiencia en ventas consultivas B2B, entendiendo necesidades del
-              cliente y traduciéndolas en soluciones técnicas. Negociación y cierre.
+              Diseño e implementación de arquitecturas web escalables, despliegues en la nube, APIs REST robustas y optimización de bases de datos SQL/NoSQL.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Profesor de Música</h4>
-                <h5>Independiente / Instituciones</h5>
+                <h4>Ingeniería en Sistemas de Información</h4>
+                <h5>UTN</h5>
               </div>
-              <h3>2009–24</h3>
+              <h3>2017</h3>
             </div>
             <p>
-              Más de 15 años de experiencia docente. Paciencia, empatía,
-              comunicación efectiva y capacidad para explicar conceptos complejos.
-            </p>
-          </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Desarrollador Full Stack</h4>
-                <h5>Proyectos Personales</h5>
-              </div>
-              <h3>2018-20</h3>
-            </div>
-            <p>
-              Desarrollo de aplicaciones web con React, Next.js, Node.js,
-              Express.js y bases de datos SQL/NoSQL. Construcción de APIs REST.
+              Graduado como Ingeniero en Sistemas, consolidando bases sólidas en arquitectura de software, gestión de proyectos y desarrollo tecnológico.
             </p>
           </div>
         </div>
