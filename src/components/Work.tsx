@@ -3,13 +3,23 @@ import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
-const projects = [
+type Project = {
+  title: string;
+  category: string;
+  tools: string;
+  image: string;
+  link: string;
+  note?: string;
+};
+
+const projects: Project[] = [
   {
-    title: "Expo E-commerce & Inventory Mobile App",
-    category: "Aplicación Móvil y Web Full Stack",
-    tools: "React Native, Expo, Node.js, Express, MSSQL / PostgreSQL, JWT",
-    image: "/images/ecommerce-mobile.png",
-    link: "https://github.com/mariomarquesto/expo-ecommerce2",
+    title: "ARN Lubricentro — SaaS de Gestión Integral con IA",
+    category: "Sistema de gestión para lubricentros y talleres",
+    tools: "Next.js 14, TypeScript, Supabase (PostgreSQL + RLS), PWA, Vercel CI/CD, WhatsApp Cloud API",
+    image: "/images/arn-lubricentro.png",
+    link: "https://aceite-app-two.vercel.app",
+    note: "Repo público: github.com/mariomarquesto/AceiteApp",
   },
   {
     title: "AgTech Enterprise Core Data & Analytics",
@@ -26,6 +36,13 @@ const projects = [
     image: "/images/n8n-ai.png",
     link: "#",
     note: "Implementación corporativa confidencial",
+  },
+  {
+    title: "Expo E-commerce & Inventory Mobile App",
+    category: "Aplicación Móvil y Web Full Stack",
+    tools: "React Native, Expo, Node.js, Express, MSSQL / PostgreSQL, JWT",
+    image: "/images/ecommerce-mobile.png",
+    link: "https://github.com/mariomarquesto/expo-ecommerce2",
   },
 ];
 

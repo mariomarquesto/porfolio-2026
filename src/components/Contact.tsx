@@ -11,17 +11,29 @@ const Contact = () => {
             <h4>Conectemos</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/mario-marquesto"
+                href="mailto:mariomarquesto@gmail.com"
+                data-cursor="disable"
+              >
+                mariomarquesto@gmail.com
+              </a>
+            </p>
+            <p>
+              <a
+                href="https://aceite-app-two.vercel.app"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — Mario Marquesto
+                ARN Lubricentro — demo en vivo
               </a>
             </p>
+            <p>Abierto a propuestas: Tech Lead · Senior Software Engineer · AI Integration Specialist, 100% remoto.</p>
             <h4>Formación</h4>
             <p>
-              Full Stack + IA — Especialización en integración de IA
+              Ingeniero en Sistemas de Información — UTN, Facultad Regional Tucumán (2012–2017)
+            </p>
+            <p>
+              Ruta de Maestría en Cloud Computing &amp; DevOps — AWS y Microsoft Azure
             </p>
             <p>
               Ventas Consultivas — Negociación y entendimiento del negocio

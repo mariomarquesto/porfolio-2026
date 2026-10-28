@@ -91,17 +91,18 @@ const WhatIDo = () => {
               <h4>Aplicaciones web escalables con IA</h4>
               <p>
                 Desarrollo aplicaciones web completas con React, Next.js, .NET Core,
-                Node.js y bases de datos SQL/NoSQL. Integro inteligencia artificial
-                para automatizar procesos y mejorar la experiencia del usuario.
+                Node.js y bases de datos relacionales (PostgreSQL y SQL Server).
+                Integro inteligencia artificial en producción para automatizar
+                procesos y mejorar la experiencia del usuario.
               </p>
               <h5>Tecnologías</h5>
               <div className="what-content-flex">
                 <div className="what-tags">React / Next.js</div>
                 <div className="what-tags">.NET Core / Node.js</div>
-                <div className="what-tags">MongoDB / MySQL</div>
+                <div className="what-tags">PostgreSQL / SQL Server</div>
+                <div className="what-tags">Supabase / RLS</div>
                 <div className="what-tags">OpenAI / LangChain</div>
-                <div className="what-tags">RAG / Embeddings</div>
-                <div className="what-tags">TypeScript</div>
+                <div className="what-tags">RAG / TypeScript</div>
               </div>
               <div className="what-arrow"></div>
             </div>
